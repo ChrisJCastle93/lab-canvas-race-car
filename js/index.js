@@ -22,7 +22,7 @@ class Scene {
     this.canvas.height = window.innerHeight;
     this.canvas.width = window.innerWidth;
     this.backgroundImage = new Image();
-    this.backgroundImage.src = "../images/road.png";
+    this.backgroundImage.src = "images/road.png";
     this.backgroundY = 0;
   }
   clear() {
@@ -54,7 +54,7 @@ class Car {
     this.speedY = 0;
     this.speedX = 0;
     this.image = new Image();
-    this.image.src = "../images/car.png";
+    this.image.src = "images/car.png";
   }
   drawCar() {
     scene.ctx.drawImage(this.image, this.x, this.y, carSize, carSize);
