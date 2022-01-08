@@ -1,4 +1,5 @@
 body {
+  position: relative;
   padding: 0;
   text-align: center;
 }
@@ -6,11 +7,12 @@ body {
 .game-intro {
   float: left;
   padding: 0% 10%;
+  position: absolute;
 }
 
 .game-intro p {
   font-size: 18px;
-  font-family: "Verdana"
+  font-family: "Verdana";
 }
 
 .logo-img {
